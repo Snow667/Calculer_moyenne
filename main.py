@@ -46,7 +46,7 @@ def demander_note_coef(nb):
         del coefi[0]
     del tot[0]
     somme_total = sum(tot)
-    somme_coef = sum(coe)  # POur pour / le somme par le coef il fuatr transferer la somme des 2 listes dans 2 var
+    somme_coef = sum(coe)  
     somme_finale = somme_total/somme_coef
     return somme_finale
 
